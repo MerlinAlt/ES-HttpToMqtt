@@ -1,0 +1,5 @@
+{
+  "server": "your.mqtt.broker",
+  "port": 1883,
+  "keepalive": 60
+}

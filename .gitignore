@@ -1,0 +1,6 @@
+.idea/
+.venv/
+build/
+*.egg-info/
+__pycache__/
+pyproject.toml

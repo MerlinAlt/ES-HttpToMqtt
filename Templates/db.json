@@ -1,0 +1,230 @@
+{
+    "Shelves": {
+        "Shelves": [
+            {
+                "ShelfNumber": 2,
+                "Mac_Address": "3C:71:BF:AA:73:F0",
+                "Positions": [
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 0,
+                        "LEDs": [
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 1,
+                        "LEDs": [
+                            2
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 2,
+                        "LEDs": [
+                            3
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 3,
+                        "LEDs": [
+                            4,
+                            5
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 4,
+                        "LEDs": [
+                            6
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 5,
+                        "LEDs": [
+                            7
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 6,
+                        "LEDs": [
+                            8,
+                            9
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 7,
+                        "LEDs": [
+                            10
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 8,
+                        "LEDs": [
+                            11
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 9,
+                        "LEDs": [
+                            12,
+                            13
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 10,
+                        "LEDs": [
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 11,
+                        "LEDs": [
+                            18
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 12,
+                        "LEDs": [
+                            19,
+                            20
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 2,
+                        "PositionId": 13,
+                        "LEDs": [
+                            21,
+                            22,
+                            23
+                        ]
+                    }
+                ]
+            },
+            {
+                "ShelfNumber": 3,
+                "Mac_Address": "xx:xx:xx:x1",
+                "Positions": [
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 1,
+                        "LEDs": [
+                            3,
+                            4,
+                            5
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 2,
+                        "LEDs": [
+                            0,
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 3,
+                        "LEDs": [
+                            6,
+                            7
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 4,
+                        "LEDs": [
+                            8
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 5,
+                        "LEDs": [
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 6,
+                        "LEDs": [
+                            13,
+                            14
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 7,
+                        "LEDs": [
+                            15,
+                            17
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 8,
+                        "LEDs": [
+                            16
+                        ]
+                    },
+                    {
+                        "ShelfNumber": 3,
+                        "PositionId": 9,
+                        "LEDs": [
+                            18,
+                            19,
+                            20
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ESP32s": {
+        "ESP32s": [
+            {
+                "Mac_Address": "3C:71:BF:AA:73:F0",
+                "isUsed": true,
+                "isOnline": true
+            },
+            {
+                "Mac_Address": "xx:xx:xx:x1",
+                "isUsed": true,
+                "isOnline": false
+            },
+            {
+                "Mac_Address": "44:33:22:AA:BB:FF",
+                "isUsed": false,
+                "isOnline": false
+            },
+            {
+                "Mac_Address": "FF:AA:BB:FF:03:05",
+                "isUsed": false,
+                "isOnline": true
+            },
+            {
+                "Mac_Address": "3C:71:BF:AA:AC:08",
+                "isUsed": false,
+                "isOnline": true
+            }
+        ]
+    }
+}
