@@ -1,5 +1,11 @@
 # HttpToMqtt
 
+This Python Module is part of the Pick-By-Light system, it accepts request from Backend and Frontend via a REST-API and sends them as MQTT Requests to the ESP32s. It also manages the connected ESP32s, and assigns the LEDs to their respective Positions.
+
+The detailed documentation can be found in the [Wiki and Documentation](https://github.com/PBL-Pick-By-Light/ES-Wiki-and-Documentation) repository. To access 
+the automatically created Swagger docs open the url `<your base address>/docs` in your web browser.
+Example if the server runs on default settings: http://127.0.0.1:8000/docs
+
 ## Requirements
 * Python >= 3.9
 * pipenv >= 2021.5
@@ -29,11 +35,6 @@ creates a backup file in the same directory. The default directory is `HttpToMqt
 With the option `-a` or `--address` the host address for the REST-API can be configured.
 The option `-p` or `--port` specify to which port the REST-API should be bound. The default is
 `127.0.0.1:8000`.
-
-## Documentation
-The detailed documentation can be found in the 'Wiki and Documentation' repository. To access 
-the automatically created Swagger docs open the url `<your base address>/docs` in your web browser.
-Example: http://127.0.0.1:8000/docs
 
 ## License
 
