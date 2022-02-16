@@ -1,5 +1,7 @@
 # HttpToMqtt
 
+![](./docs/img/httptomqtt_logo.gif)
+
 | Requirements       |
 |--------------------|
 | Python \>= 3.9     |
