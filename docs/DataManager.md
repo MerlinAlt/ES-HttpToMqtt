@@ -15,7 +15,7 @@ class **DataManager**(builtins.object)
 **DataManager**(path\_to\_json\_file: pathlib.Path)  
    
 A class that manages a JSON database that complies to  
-the structure of the Class DB in Types/\_\_init\_\_.py.  
+the structure of the Class DB in **Types/\_\_init\_\_.py**.  
    
 ### Attributes  
 ***
