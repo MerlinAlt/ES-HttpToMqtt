@@ -9,11 +9,13 @@ The Api submodule uses the following python modules:
 * [starlette.status](https://pypi.org/project/starlette/)  
 * [uvicorn](https://pypi.org/project/uvicorn/)  
 
-## **Classes**
+## **UML Class Diagram**
+<img alt="Api" src="./img/Api.png" width="400"/>
+
+## **Class Api**
 
 class **Api**(builtins.object)
 
-   ***
 
 **Api**(ip: str, port: int, mqtt, data\_manager)  
    
@@ -46,24 +48,19 @@ Run the REST-API.
    
 ## **Functions**
  
-**color\_string\_to\_byte\_array**(color\_as\_string: str) -> bytearray
+**color\_string\_to\_byte\_array**(**color\_as\_string**: str) -> `bytearray`
 
 Convert color string to a bytearray with three bytes, each one for the RGB respectively.  
-If the specified format is not adhered to then None is returned.  
+If the specified format is not adhered to then `None` is returned.  
    
 **Parameters**  
-color\_as\_string : str  
+**color\_as\_string** : str  
     String containing the RGB values to be converted to a bytearray.  
-    Format has to be '#FFFFFF' just containing hex values. Not case-sensitive.  
+    Format has to be `#FFFFFF` just containing hex values. Not case-sensitive.  
    
 **Returns**  
 A bytearray containing the three RGB values.  
-If the specified format is not adhered to then None is returned.
+If the specified format is not adhered to then `None` is returned.
 
    
-## **Data**
 
-**List** = typing.List  
-**TIMEOUT** = 5  
-**Union** = typing.Union  
-**log** = <Logger \_\_init\_\_ (WARNING)>

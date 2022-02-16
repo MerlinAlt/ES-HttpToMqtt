@@ -14,8 +14,10 @@ The Mqtt submodule uses the following python modules:
 
 * [time](https://docs.python.org/3/library/time.html)  
 
+## **UML Class Diagram**
+<img alt="Mqtt" src="./img/Mqtt.png" width="600"/>
    
-## **Classes**
+## **Class Mqtt**
 
 class **Mqtt**(builtins.object)
 
@@ -26,11 +28,11 @@ A class to represent a MQTT module that has a MQTT client and access to a JSON d
 ***
 **conf\_path** : str  
     Path to the configuration JSON file that contains all the necessary information to set up the MQTT client.  
-**data\_manager** : DataManager  
+**data\_manager** : [DataManager](./DataManager.md)  
     Object representing the data manager that adds, updates, finds and deletes data from the JSON database.  
-**light\_ack\_queue** : list\[ACK\]  
+**light\_ack\_queue** : list\[[ACK](./types.md#ack)\]  
     Queue for the ACKs coming from all operations over the pbl/+/light MQTT topic.  
-**config\_ack\_queue** : list\[ACK\]  
+**config\_ack\_queue** : list\[[ACK](./types.md#ack)\]  
     Queue for the ACKs coming from all operations over the pbl/+/config MQTT topic.  
 **config** : dict  
     Object representing the deserialized JSON file in conf\_path.  
@@ -56,7 +58,7 @@ data in a JSON file.
 Publishes a MQTT message (payload) to the specified topic using the specified select\_queue ("light\_ack" or "config\_ack") in order to get ACKs from the ESP32 to which the message was sent.    
 If in 'timeout' seconds an ACK has not returned from the ESP32  to which the message was sent the status code 504 (HTTP\_504\_GATEWAY\_TIMEOUT) is returned. After an ACK has come the status code 200 (HTTP\_200\_OK) is returned.  
    
-**Parameters** 
+**Parameters**  
 **timeout** : int  
     Seconds to wait for an ACK.  
 **mac\_address** : str  
@@ -68,13 +70,13 @@ If in 'timeout' seconds an ACK has not returned from the ESP32  to which the mes
 **payload** : bytearray  
     Byte array containing the raw data to be sent.  
    
-**Returns**
+**Returns**  
 A status code that depends on how the operation went. If in 'timeout' seconds an ACK has not returned from the ESP32 to which the message was sent the status code 504 (HTTP\_504\_GATEWAY\_TIMEOUT) is returned. After an ACK has come the status code 200 (HTTP\_200\_OK) is returned.
 ***
 **run**(self) -> `paho.mqtt.client.Client`
 
 Registers the callbacks for the MQTT client and connects it to the specified MQTT-broker in the configuration JSON file. Then it starts the loops that receive messages and handles them.  
    
-**Returns** 
+**Returns**  
 The reference to the MQTT client of the MQTT module.
 ***
